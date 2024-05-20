@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form - Completed</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="main-container">
+
+  <div class="main-content">
+
+    <div class="left-container">
+      <div class="card-front">
+        <img id="img-card-front" src="images/bg-card-front.png" alt="visão frontal do cartão">
+        <label id="sym-card-front"><img src="images/card-logo.svg" alt="logo do cartão"></label>
+        <label id="num-card-front">0000 0000 0000 0000</label>
+        <label id="name-card-front">Jane Appleseed</label>
+        <label id="date-card-front">00/00</label>
+      </div>
+      <div class="card-back">
+        <img id="img-card-back" src="images/bg-card-back.png" alt="visão posterior do cartão">
+        <label id="cvc-card-back">000</label>
+      </div>
+    </div>
+    <div id="right-container" class="right-container">
+        <div id="complete">
+            <img id="img-complete" src="/images/icon-complete.svg" alt="icone de completo">
+            <h1 id="thankyou">Thank you!</h1>
+            <h2 id="carddetails">We've added your card details</h2>
+            <button id="confirm" type="submit">Continue</button>
+        </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Felipe Henrique Ferraz</a>.
+</div>
+
+</body>
